@@ -1,66 +1,149 @@
 <!doctype html>
-<html>
-  <head>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Js-type-tests by adamwdraper</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Js-type-tests</h1>
-        <p></p>
+    <title>Js Type Test</title>
+    <meta name="description" content="Javascript type testing. A github repository from adamwdraper - https://github.com/adamwdraper">
+    <meta name="author" content="">
 
-        <p class="view"><a href="https://github.com/adamwdraper/js-type-tests">View the Project on GitHub <small>adamwdraper/js-type-tests</small></a></p>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 
-        <ul>
-          <li><a href="https://github.com/adamwdraper/js-type-tests/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/adamwdraper/js-type-tests/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/adamwdraper/js-type-tests">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>Welcome to GitHub Pages.</h3>
+    <link rel="stylesheet" href="css/style.css">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/adamwdraper">adamwdraper</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <style type="text/css">
+        table th, table td {
+            text-align: center;
+            width: 20%
+        }
+    </style>
     
-  </body>
+    <script src="js/build/site-min.js"></script>
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+</head>
+<body class="cf">
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+    <div class="header-bar full"></div>
+    <div class="sidebar thrd m-full s-full">
+        <div class="inner">
+            <h1 class="logo">
+                Js Type Test
+            </h1>
+            <p class="tagline">
+                A simple test of Javascript types for truthiness and length.
+            </p>
+            <p>
+                v 0.0.1
+            </p>
+            <div class="github-links">
+                <a class="button flat" href="https://github.com/adamwdraper/js-type-tests"><i aria-hidden="true" class="icon-github"></i> Github</a>
+                <a class="button flat download" href="https://github.com/adamwdraper/js-type-tests/zipball/master"><i aria-hidden="true" class="icon-download"></i> .ZIP</a>
+                <a class="button flat download" href="https://github.com/adamwdraper/js-type-tests/tarball/master"><i aria-hidden="true" class="icon-download"></i> .TGZ</a>
+            </div>
+            <div id="nav" class="nav">
+            </div>
+        </div>
+    </div>
+    <div class="content xl-over-thrd l-over-thrd thrd2 m-full s-full">
+        <div class="inner">
+
+            <script type="text/javascript">
+                var test = {},
+                    testValues = [null,
+                        NaN,
+                        true,
+                        false,
+                        -1,
+                        0,
+                        1,
+                        '0',
+                        '',
+                        function() {},
+                        function() { return a; },
+                        function(a, b) { return a + b; },
+                        {},
+                        [],
+                        ['foo', 'bar']
+                    ],
+                    testStrings = ['null',
+                        'NaN',
+                        'true',
+                        'false',
+                        '-1',
+                        '0',
+                        '1',
+                        '\'0\'',
+                        '\'\'',
+                        'function() { }',
+                        'function() { <br />return a;<br />}',
+                        'function(a, b) {<br />return a + b;<br />}',
+                        '{ }',
+                        '[ ]',
+                        '[\'foo\', \'bar\']'
+                    ];
+
+                document.write('<table class="table striped bordered"><tr><th>Value</th><th>Type</th><th>if() result</th><th>length property</th><th>length</th></tr>');
+
+                document.write('<tr><td>' + test.test + '</td><td>' + typeof(test.test) + '</td><td>');
+                if (test.test) {
+                    document.write('<span class="label success small">true</span>');
+                } else {
+                    document.write('<span class="label error small">false</span>');
+                }
+                if (test.test !== undefined && test.test.length !== undefined) {
+                    document.write('</td><td><span class="label success small">true</span></td><td><span class="">' + test.test.length + '</span></td></tr>');
+                } else {
+                    document.write('</td><td><span class="label error small">false</span></td><td></td></tr>');
+                }
+
+                testValues.forEach(function(value, index) {
+                    test.test = value;
+                    document.write('<tr><td>' + testStrings[index] + '</td><td>' + typeof(test.test) + '</td><td>');
+                    if (test.test) {
+                        document.write('<span class="label success small">true</span>');
+                    } else {
+                        document.write('<span class="label error small">false</span>');
+                    }
+                    if (test.test !== null && test.test.length !== undefined) {
+                        document.write('</td><td><span class="label success small">true</span></td><td><span class="">' + test.test.length + '</span></td></tr>');
+                    } else {
+                        document.write('</td><td><span class="label error small">false</span></td><td></td></tr>');
+                    }
+                });
+
+                document.write('</table>');
+            </script>
+
+        </div>
+    </div>
+
+    <div class="footer l-thrd xl-thrd full">
+        <div class="inner">
+            <p>
+                This is a project by <a href="http://github.com/adamwdraper">adamwdraper</a>
+            </p>
+        </div>
+    </div>
+
+</body>
 </html>
